@@ -22,3 +22,5 @@ class PrivacyBanner extends HTMLElement {
 }
 
 window.customElements.define('privacy-banner', PrivacyBanner);
+
+console.log('asd');
