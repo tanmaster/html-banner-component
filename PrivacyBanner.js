@@ -22,5 +22,3 @@ class PrivacyBanner extends HTMLElement {
 }
 
 window.customElements.define('privacy-banner', PrivacyBanner);
-
-export default new PrivacyBanner();
