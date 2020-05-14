@@ -9,12 +9,12 @@ class PrivacyBanner extends HTMLElement {
     const policyLink = this.getAttribute('policy-link');
     const onAccept = this.getAttribute('on-accept');
     console.log(onAccept);
-    this.innerHTML = `Um Ihnen den bestmöglichen Service zu gewärhleisten
-        speichert ${applicationName} personenbezogene Daten.
-        Wenn Sie auf der Seite weitersurfen stimmen Sie
-        bitte der <a href="${policyLink}">Datenschutz-Richtlinie</a> zu.`;
+    this.innerHTML = `In order to guarantee you the best possible service,
+        ${applicationName} stores personal data.
+        If you continue browsing the site, please agree to the
+        <a href="${policyLink}">privacy policy</a>.`;
     const btn = document.createElement('BUTTON');
-    btn.innerText = 'Alles Klar!';
+    btn.innerText = 'All right!';
     btn.onclick = function() {
       this.dispatchEvent(new CustomEvent('on-accept',
           {
