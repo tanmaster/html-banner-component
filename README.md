@@ -4,7 +4,7 @@ This little code snippet repository created as part of a university course to de
 ## Usage
 To use this component, simply add this repo to your package.json file as a dependency like so:
 
-`"html-banner-component": "https://github.com/stefanjp/html-banner-component.git"`
+`"html-banner-component": "https://github.com/tanmaster/html-banner-component.git"`
 
 using a node framework, you can import the component like this:
 
