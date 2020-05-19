@@ -1,5 +1,5 @@
 # html-banner-component
-This little code snippet repository created as part of a university course to demonstrate the benefits of reusable web components/custom html elements.
+This little code snippet repository was created as part of a university course to demonstrate the benefits of reusable web components/custom html elements.
 
 ## Usage
 To use this component, simply add this repo to your package.json file as a dependency like so:
