@@ -7,10 +7,10 @@ class PrivacyBanner extends HTMLElement {
     const policyLink = this.getAttribute('policy-link');
     const onAccept = this.getAttribute('on-accept');
     console.log(onAccept);
-    this.innerHTML = `In order to guarantee you the best possible service,
+    this.innerHTML = `<div>In order to guarantee you the best possible service,
         ${applicationName} stores personal data.
         If you continue browsing the site, please agree to the
-        <a href="${policyLink}">privacy policy</a>.`;
+        <a href="${policyLink}">privacy policy</a>.</div>`;
     const btn = document.createElement('BUTTON');
     btn.innerText = 'All right!';
     btn.onclick = function() {
@@ -21,7 +21,9 @@ class PrivacyBanner extends HTMLElement {
             composed: true,
           }));
     };
-    this.appendChild(btn);
+    const div = document.createElement('div');
+    div.appendChild(btn);
+    this.appendChild(div);
   }
 }
 
