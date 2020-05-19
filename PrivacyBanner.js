@@ -1,5 +1,3 @@
-
-
 class PrivacyBanner extends HTMLElement {
   constructor() {
     super();
