@@ -42,4 +42,4 @@ Please see your framework's specific instructions on how to use custom html comp
 
 ### Plain JS
 
-In case you are developing in the old fashioned way using html, css & js, it is enough to include the [PrivacyBanner.js](PrivacyBanner.js) into your html page and you should be able to use the custom html tag.
+In case you are developing the old fashioned way using html, css & js, it is enough to include the [PrivacyBanner.js](PrivacyBanner.js) into your html page and you should be able to use the custom html tag.
