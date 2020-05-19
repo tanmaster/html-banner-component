@@ -35,12 +35,11 @@ this.footerRef.current.addEventListener('on-accept', (_) => {
       });
 ```
 
-### Plain JS
-
-For vanilla js, it is enough to include the above script file into your html page and you should be able to use the 
-custom html tag.
-
-
 ### Other frameworks
 
 Please see your framework's specific instructions on how to use custom html components.
+
+
+### Plain JS
+
+In case you are developing in the old fashioned way using html, css & js, it is enough to include the [PrivacyBanner.js](PrivacyBanner.js) into your html page and you should be able to use the custom html tag.
